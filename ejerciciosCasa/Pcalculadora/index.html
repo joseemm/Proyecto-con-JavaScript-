@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="assects/css/estiloCalculadora.css" type="text/css">
+</head>
+<body>
+    
+<h1>Calculadora</h1>
+      
+      <div class="Menu">
+        <a href="/">Menu</a>
+      </div>
+    
+      
+      <table  class="calculadora">
+
+        <tr>
+            <td colspan="4"><input id="pantalla" type="text">  </td>
+        </tr>
+
+
+        <tr>
+            
+          <td><button onclick="agregarNumero(7)">7</button></td>
+          <td><button onclick="agregarNumero(8)">8</button></td>
+          <td><button onclick="agregarNumero(9)">9</button></td>
+          <td><button onclick="agregarOperacion('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="agregarNumero(4)">4</button></td>
+          <td><button onclick="agregarNumero(5)">5</button></td>
+          <td><button onclick="agregarNumero(6)">6</button></td>
+          <td><button onclick="agregarOperacion('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="agregarNumero(1)">1</button></td>
+          <td><button onclick="agregarNumero(2)">2</button></td>
+          <td><button onclick="agregarNumero(3)">3</button></td>
+          <td><button onclick="agregarOperacion('*')">*</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="agregarNumero(0)">0</button></td>
+          <td><button onclick="borrar()">C</button></td>
+          
+          <td><button onclick="calcular()">=</button></td>
+          <td><button onclick="agregarOperacion('/')">/</button></td>
+        </tr>
+      </table> 
+
+      <script src="assects/js/calculadora.js"></script>
+
+</body>
+</html>

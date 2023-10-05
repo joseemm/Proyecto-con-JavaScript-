@@ -1,0 +1,85 @@
+/* Estilo general de los input */
+
+/* Estilo general de la página */
+body {
+    background-color: lavender; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    text-align: center; /* Alineación de los textos */
+}
+
+/* Estilo del título */
+h1 {
+    color: purple; /* Color del texto */
+    font-size: 36px; /* Tamaño del texto */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo del párrafo */
+p {
+    color: black; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+
+input {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+/* Estilo del input de Celsius */
+#celsius {
+    background-color: lightblue;
+}
+
+/* Estilo del input de Fahrenheit */
+#fahrenheit {
+    background-color: lightcoral;
+}
+
+/* Estilo de los párrafos */
+p {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.textos{
+
+    text-align:center;
+
+}
+
+
+
+.calculadora {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+  
+ 
+  .calculadora > * {
+    margin: 10px; 
+  }
+
+  
+  
+  
+  
+  
+  .Menu{
+    
+    background-color: #5ccbf3;
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
