@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="assects/css/estiloPassword.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="mi-h1">Jose Enrique Morel Martinez </h1>
+        <nav>
+          <a href="/">Inicio</a>
+          <a href="/">Proyectos</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </header> 
+    <div class="container">
+        <h1 class="text-center">Generador de contraseñas</h1>
+        <p class="text-center">Crea una contraseña segura y aleatoria con las opciones que elijas.</p>
+        <div class="card">
+            <div class="card-body">
+                <!-- Formulario para elegir las opciones de la contraseña -->
+                <form id="form">
+                    <div class="mb-3">
+                        <label for="length" class="form-label">Longitud de la contraseña</label>
+                        <input type="number" class="form-control" id="length" min="4" max="20" value="8">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="lowercase" checked>
+                        <label class="form-check-label" for="lowercase">Incluir minúsculas</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="uppercase" checked>
+                        <label class="form-check-label" for="uppercase">Incluir mayúsculas</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="numbers" checked>
+                        <label class="form-check-label" for="numbers">Incluir números</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="symbols">
+                        <label class="form-check-label" for="symbols">Incluir símbolos</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Generar contraseña</button>
+                </form>
+                <!-- Div para mostrar la contraseña generada -->
+                <div id="password-container" class="mt-4 d-none">
+                    <p class="password" id="password"></p>
+                    <button class="btn btn-secondary w-100 copy" id="copy" data-bs-toggle="tooltip" data-bs-placement="top" title="Copiar al portapapeles">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <p> Email: morelmartinezj@gmail.com </p>
+      </footer>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assects/js/password.js"></script>
+</body>
+</html>

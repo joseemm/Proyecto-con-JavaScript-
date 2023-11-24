@@ -1,0 +1,319 @@
+/* Estilo general de los input */
+
+/* Estilo general de la página */
+
+/* Estilos básicos */
+ /* Estilos generales */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  /* Estilos de la sección de presentación */
+  .intro {
+    background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro h2 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  /* Estilos de la sección de proyectos */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+  }
+
+  .project {
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .project h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .project a {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+    /* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Estilos de la sección de presentación */
+.intro {
+  background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro h2 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project h3 {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.project a {
+  display: block;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Media query para pantallas menores o iguales a 768px */
+@media (max-width:768px) {
+
+
+
+/* Estilos de la sección de proyectos */
+.projects {
+grid-template-columns: repeat(2,1fr); /* Reducimos el número de columnas a dos */
+}
+
+}
+
+/* Media query para pantallas menores o iguales a 480px */
+@media (max-width:480px) {
+
+/* Estilos del encabezado */
+header h1 {
+font-size:18px; /* Reducimos el tamaño del título */
+}
+
+/* Estilos de la sección de presentación */
+.intro h2 {
+font-size:24px; /* Reducimos el tamaño del subtítulo */
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+grid-template-columns: 1fr; /* Reducimos el número de columnas a una */
+}
+
+}
+#mi-h1{
+
+    color: white;
+}
+
+#mi-p{
+
+    color: white;
+}
+/* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una */
+
+body {
+    
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    text-align: center; /* Alineación de los textos */
+}
+
+/* Estilo del título */
+h1 {
+    color: purple; /* Color del texto */
+    font-size: 36px; /* Tamaño del texto */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo del párrafo */
+p {
+    color: black; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+
+input {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+/* Estilo del input de Celsius */
+#celsius {
+    background-color: lightblue;
+}
+
+/* Estilo del input de Fahrenheit */
+#fahrenheit {
+    background-color: lightcoral;
+}
+
+/* Estilo de los párrafos */
+p {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.textos{
+
+    text-align:center;
+
+}
+
+
+
+.calculadora {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+  
+ 
+  .calculadora > * {
+    margin: 125px; 
+    padding: 5px;
+  }
+
+  
+  
+  
+  
+  
+  .Menu{
+    
+    background-color: #5ccbf3;
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}

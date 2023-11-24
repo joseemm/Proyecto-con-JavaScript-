@@ -1,0 +1,337 @@
+/* Este es el archivo CSS */
+/* Estilo general de la página */
+/* Estilos básicos */
+ /* Estilos generales */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  /* Estilos de la sección de presentación */
+  .intro {
+    background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro h2 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  /* Estilos de la sección de proyectos */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+  }
+
+  .project {
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .project h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .project a {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+    /* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Estilos de la sección de presentación */
+.intro {
+  background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro h2 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project h3 {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.project a {
+  display: block;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Media query para pantallas menores o iguales a 768px */
+@media (max-width:768px) {
+
+
+
+/* Estilos de la sección de proyectos */
+.projects {
+grid-template-columns: repeat(2,1fr); /* Reducimos el número de columnas a dos */
+}
+
+}
+
+/* Media query para pantallas menores o iguales a 480px */
+@media (max-width:480px) {
+
+/* Estilos del encabezado */
+header h1 {
+font-size:18px; /* Reducimos el tamaño del título */
+}
+
+/* Estilos de la sección de presentación */
+.intro h2 {
+font-size:24px; /* Reducimos el tamaño del subtítulo */
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+grid-template-columns: 1fr; /* Reducimos el número de columnas a una */
+}
+
+}
+#mi-h1{
+
+    color: white;
+}
+
+/* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una *//* Reducimos el número de columnas a una */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+    
+    
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Estilo del campo de texto */
+input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+/* Estilo del botón */
+button {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.Menu{
+    
+    background-color: #5ccbf3;
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+/* Estilo de la tabla */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+    
+}
+
+/* Estilo de las celdas de la tabla */
+td {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+  }
+
+        /* Estilo para centrar el contenido de la página */
+        .centrar {
+            max-width: 960px;
+            margin: auto;
+        }
+        /* Estilo para centrar el título */
+        #titulo {
+            text-align: center;
+        }
+        /* Estilo para centrar el párrafo */
+        p {
+            text-align: center;
+        }
+        /* Estilo para centrar el input y el botón */
+        .formulario {
+          display: flex; /* Esto hace que los elementos hijos se alineen en una fila */
+          justify-content: center; /* Esto centra los elementos horizontalmente */
+        }
+        /* Estilo para centrar la tabla */
+        #tabla {
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+        .formulario { display: flex; /* Esto hace que los elementos hijos se alineen en una fila / justify-content: center; / Esto centra los elementos horizontalmente */ }
